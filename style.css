@@ -99,6 +99,17 @@
   margin-right:3%;
 }
 
+.caption {
+  font-size: 20px;
+  color: rgb(56, 160, 179); 
+  text-align: center;
+  width: 230px;
+ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 @media (max-width: 800px) {
     
     #box {
