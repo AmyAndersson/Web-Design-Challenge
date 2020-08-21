@@ -12,10 +12,6 @@
   background: rgb(56, 160, 179);
 }
 
-.p_spesh {
-  text-justify: distribute-all-lines;
-  margin: 10px;
-}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
