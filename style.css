@@ -9,7 +9,7 @@
   display: inline-block;
   height: 40px;
   padding: 10px;
-  background: rgb(0, 217, 255);
+  background: rgb(56, 160, 179);
 }
 
 .p_spesh {
@@ -37,24 +37,28 @@
 }
 
 .box_l {
-  height: 400px;
+  height: 450px;
   padding: 50px;
   margin-bottom: 20px;
   margin-top:20px;
   margin-left:20px; 
   margin-right:20px;
-  color: rgb(53, 49, 49);
+  color: rgb(56, 160, 179);
   background: white;
 }
 
+.text1 {
+  color: rgb(26, 40, 43)
+}
+
 .box_r {
-  height: 435px;
+  height: 350px;
   padding: 50px;
   margin-bottom: 20px;
   margin-top:20px;
   margin-left:20px; 
   margin-right:20px;
-  color: rgb(53, 49, 49);
+  color:  rgb(56, 160, 179);
   background: white;
 }
 
@@ -62,7 +66,7 @@
 .margin-top-80 {
   margin-top: 80px;
 }
-.box h1 {color:rgb(51, 185, 185);
+.box h1 {color:rgb(56, 160, 179);
   font-size: 14pt; }
 
 .navbar li {
@@ -71,16 +75,24 @@
   cursor: pointer;
   border-radius: 3px;}
 
+.navbar-custom {
+  background-color: white;
+  align-content: right ;
+  }
+
+.border1{
+  border:1px solid rgb(56, 160, 179);
+}
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     
     #box {
       font:larger;
       color:white;
       height: 60px;
       padding: 10px;
-      background: rgb(0, 217, 255);
+      background: rgb(56, 160, 179);
     }
     .Bkground { 
       background-color: rgb(252, 234, 213);
@@ -93,39 +105,42 @@
       height: 40px;
       padding: 10px;
       width: 100%;
-      background: rgb(0, 217, 255);
+      background: rgb(56, 160, 179);
     }
     
     .navbar li a {
       color: #000;
       text-decoration: none;}
     
-      .box_l {
-        height: 600px;
-        padding: 50px;
-        margin-bottom: 20px;
-        margin-top:20px;
-        margin-left:20px; 
-        margin-right:20px;
-        color: rgb(53, 49, 49);
-        background: white;
+    .box_l {
+      height: 550px;
+      padding: 50px;
+      margin-bottom: 20px;
+      margin-top:20px;
+      margin-left:20px; 
+      margin-right:20px;
+      color:  rgb(56, 160, 179);
+      background: white;
       }
       
-      .box_r {
-        height: 200px;
-        padding: 50px;
-        margin-bottom: 20px;
-        margin-top:20px;
-        margin-left:20px; 
-        margin-right:20px;
-        color: rgb(53, 49, 49);
-        background: white;
+    .box_r {
+      height: 250px;
+      padding: 50px;
+      margin-bottom: 20px;
+       margin-top:20px;
+      margin-left:20px; 
+      margin-right:20px;
+      color:  rgb(56, 160, 179);
+      background: white;
       }
-    
+
+    .text1 {
+      color: rgb(26, 40, 43)
+      }
     .margin-top-80 {
       margin-top: 80px;
     }
-    .box h1 {color:rgb(51, 185, 185);
+    .box h1 {color:rgb(56, 160, 179);
       font-size: 14pt; }
     
     .navbar li {
@@ -134,8 +149,8 @@
       cursor: pointer;
       border-radius: 3px;}
 
-    .navbar-custom{
-      background-color: rgb(0, 217, 255);
+    .navbar-custom {
+      background-color: rgb(56, 160, 179);
       align-content: right ;
     }
 
