@@ -13,10 +13,9 @@
 </head>
 
 <body>
-  <div class="Bkground">
   <div id="app" class="container">
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-      <box id="box2">Latitude</box> 
+      <box id="box2" href="index.html">Latitude</box> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,23 +51,25 @@
     <div class="row">
     <!--First Column in this Row-->
       <div class="col-md-7 col-sm-12">
-        <div class="box">
+        <div class="box_l">
           <h1>Summary Latittude vs X</h1>
           <hr>
                 <div class="thumbnail">
-                    <img class="img-thumbnail float-left" src="Resources/assets/images/Fig1.png " width="50%" alt="temperature">
-                </div>
-                    <p>KJSFKjskdfsdkjf;skadjfg;asdf;sakhdf;asdkhf.  </p> 
+                  <a target="_blank" href="Resources/assets/images/Fig1.png">
+                    <img class="img-thumbnail float-left" href="temp.html" src="Resources/assets/images/Fig1.png " width="50%" alt="temperature">
+                  </a>
+                  </div>
+                    <p class="text-justify">This project looked at the weather in at least 500 countries to determine weather changes and their relation to the equator. In order to do this data was pulled from the OpenWeatherMaps website using an API.  </p> 
                     
-                    <p>dslfhasdlkfhasdhfasljdfh.</p>
+                    <p class="text-justify"> Once the data was acquired Matplotlib and other visulisation libraries were used to plot and view the weather data. Analysis and Visulisations include temperature, humidity, cloudiness and windspeed data. Results from this analysis are displayed on this site!</p>
         </div>
       </div>
 
       
       <div class="col-md-4 col-sm-12">  
         <div class="row">
-          <div class="box">
-            <h1> Visulization </h1>
+          <div class="box_r">
+            <h1> Visulizations </h1>
             <hr>
             <div class="row">
               <div class="column">

@@ -12,6 +12,11 @@
   background: rgb(0, 217, 255);
 }
 
+.p_spesh {
+  text-justify: distribute-all-lines;
+  margin: 10px;
+}
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
@@ -31,7 +36,7 @@
   text-decoration: none;
 }
 
-.box {
+.box_l {
   height: 400px;
   padding: 50px;
   margin-bottom: 20px;
@@ -41,6 +46,18 @@
   color: rgb(53, 49, 49);
   background: white;
 }
+
+.box_r {
+  height: 435px;
+  padding: 50px;
+  margin-bottom: 20px;
+  margin-top:20px;
+  margin-left:20px; 
+  margin-right:20px;
+  color: rgb(53, 49, 49);
+  background: white;
+}
+
 
 .margin-top-80 {
   margin-top: 80px;
@@ -83,15 +100,27 @@
       color: #000;
       text-decoration: none;}
     
-    .box {
-      height: 400px;
-      padding: 50px;
-      margin-bottom: 20px;
-      margin-top:20px;
-      align-content: left;
-      color: rgb(53, 49, 49);
-      background: white;
-    }
+      .box_l {
+        height: 600px;
+        padding: 50px;
+        margin-bottom: 20px;
+        margin-top:20px;
+        margin-left:20px; 
+        margin-right:20px;
+        color: rgb(53, 49, 49);
+        background: white;
+      }
+      
+      .box_r {
+        height: 200px;
+        padding: 50px;
+        margin-bottom: 20px;
+        margin-top:20px;
+        margin-left:20px; 
+        margin-right:20px;
+        color: rgb(53, 49, 49);
+        background: white;
+      }
     
     .margin-top-80 {
       margin-top: 80px;
@@ -106,7 +135,8 @@
       border-radius: 3px;}
 
     .navbar-custom{
-      background-color=rgb(0, 217, 255);
+      background-color: rgb(0, 217, 255);
+      align-content: right ;
     }
 
     .column {
