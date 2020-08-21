@@ -62,8 +62,11 @@
 .margin-top-80 {
   margin-top: 80px;
 }
-.box h1 {color:rgb(56, 160, 179);
-  font-size: 14pt; }
+
+.box h1 {
+  color:rgb(56, 160, 179);
+  font-size: 14pt;
+}
 
 .navbar li {
   display: inline-block;
@@ -82,7 +85,7 @@
 
 /* comparison page */ 
 .box_comp {
-  height: 1100px;
+  height: 800px;
   padding: 50px;
   margin-bottom: 20px;
   margin-top:20px;
@@ -176,7 +179,6 @@
 
     .navbar-custom {
       background-color: rgb(56, 160, 179);
-      align-content: right ;
     }
 
     .column {
@@ -190,7 +192,7 @@
     }
 
     .box_comp {
-      height: 2000px;
+      height: 1400px;
       padding: 50px;
       margin-bottom: 20px;
       margin-top:20px;
